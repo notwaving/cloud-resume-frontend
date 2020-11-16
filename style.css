@@ -109,14 +109,14 @@ body {
   background: #000 !important;
 }
 
-/*---------Resume----------*/
+/*---------CV----------*/
 
-.resume {
+.CV {
   padding-top: 50px;
   padding-bottom: 30px;
   background: #f9f9f9;
 }
-.resume h3 {
+.CV h3 {
   margin-bottom: 50px;
 }
 .timeline {
