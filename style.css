@@ -63,9 +63,10 @@ body {
 }
 
 /*----------About-----------*/
+
 .about {
   padding-top: 100px;
-  padding-bottom: 50px;
+  margin-bottom: -130px;
 }
 .profile-img {
   height: 400px;
@@ -112,6 +113,7 @@ body {
 /*---------CV----------*/
 
 .CV {
+  margin-top: -10px;
   padding-top: 50px;
   padding-bottom: 30px;
   background: #f9f9f9;
@@ -163,6 +165,7 @@ body {
 } 
 
 /*--------Certs and Volunteering--------*/
+
 .certs {
   padding-top: 50px;
   padding-bottom: 50px;
