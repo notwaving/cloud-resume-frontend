@@ -177,7 +177,7 @@ body {
 .certs-box {
   background: #f9f9f9;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: -20px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
