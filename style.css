@@ -103,9 +103,11 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
-.skills p {
+.skills {
   margin-bottom: 6px;
+  text-align: right;
   /* font-weight: 600; */
+ 
 }
 /* .progress {
   border-radius: 16px !important;
