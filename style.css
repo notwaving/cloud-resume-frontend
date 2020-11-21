@@ -19,6 +19,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  text-shadow: 1px 1px #000;
 }
 .user-box img {
   border-radius: 50%;
@@ -211,8 +212,8 @@ body {
   margin-top: 20px;
   color: #777;
 }
-#community {
-  padding-left: 40px;
+#community p {
+  padding-left: 45px;
 }
 .certs-box:hover {
   background: #000;
