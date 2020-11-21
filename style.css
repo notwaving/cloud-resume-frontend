@@ -105,9 +105,12 @@ body {
 }
 .skills {
   margin-bottom: 6px;
+  
   text-align: right;
-  /* font-weight: 600; */
- 
+  font-weight: 600;
+}
+.skills ul li{
+  list-style-type: none;
 }
 /* .progress {
   border-radius: 16px !important;
@@ -209,7 +212,6 @@ body {
   margin-top: 20px;
   color: #777;
 }
-
 .certs-box:hover {
   background: #000;
   color: #fff;
