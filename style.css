@@ -201,6 +201,7 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
 .certs-box p {
   font-size: 15px;
   margin-top: 20px;
@@ -211,6 +212,9 @@ body {
   font-size: 15px;
   margin-top: 20px;
   color: #777;
+}
+#community {
+  padding-left: 40px;
 }
 .certs-box:hover {
   background: #000;
