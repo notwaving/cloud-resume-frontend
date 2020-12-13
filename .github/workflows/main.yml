@@ -7,6 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
+        with:
+        args: --exclude '.git/*'
         env:
           SOURCE_DIR: '/Users/sam/Code/personal-projects/cloud-resume-challenge/cloud-resume-frontend'
           AWS_REGION: 'eu-west-2'
