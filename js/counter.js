@@ -24,17 +24,20 @@
 
 const count = document.getElementById('visits');
 
-updateVisitCount();
+updateVisitorCount();
 
-function updateVisitCount() {
-  fetch('put api gateway link here', {
-    mode: 'cors',
-    headers: {
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET',
-    },
-  })
+function updateVisitorCount() {
+  fetch(
+    ' https://ilfyf76ht3.execute-api.eu-west-2.amazonaws.com/Prod/visitor-count/',
+    {
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET',
+      },
+    }
+  )
     .then(res => res.json())
     .then(res => {
       count.innerHTML = res.visitors;
