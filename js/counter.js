@@ -28,7 +28,7 @@ updateVisitorCount();
 
 function updateVisitorCount() {
   fetch(
-    ' https://ilfyf76ht3.execute-api.eu-west-2.amazonaws.com/Prod/visitor-count/',
+    'https://ilfyf76ht3.execute-api.eu-west-2.amazonaws.com/Prod/visitor-count',
     {
       mode: 'cors',
       headers: {
