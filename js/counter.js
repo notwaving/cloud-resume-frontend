@@ -33,7 +33,7 @@ function updateVisitorCount() {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': 'http://samanthaburke.co.uk',
         'Access-Control-Allow-Methods': 'GET',
       },
     }
