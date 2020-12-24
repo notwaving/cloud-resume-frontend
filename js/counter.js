@@ -40,6 +40,6 @@ function updateVisitorCount() {
   )
     .then(res => res.json())
     .then(res => {
-      count.innerHTML = res.visitors;
+      count.innerHTML = res.visitorCount;
     });
 }
