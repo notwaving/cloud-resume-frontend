@@ -9,7 +9,7 @@ body {
 #header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-  url(img/iss_large.jpg);
+    url(img/iss_large.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 }
 .user-box h1 {
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 10px;
   font-family: 'Jura', sans-serif;
   font-size: 3.5em;
@@ -104,11 +104,11 @@ body {
 }
 .skills {
   margin-bottom: 6px;
-  
+
   text-align: right;
   font-weight: 600;
 }
-.skills ul li{
+.skills ul li {
   list-style-type: none;
 }
 
@@ -164,7 +164,7 @@ body {
   width: 20px;
   height: 20px;
   z-index: 1;
-} 
+}
 
 /*--------Certs and Volunteering--------*/
 
